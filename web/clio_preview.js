@@ -46,7 +46,7 @@ async function getPicker() {
     "display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid #35222c;flex-wrap:wrap;";
   header.innerHTML =
     `<span style="color:${PINK};font-size:15px;font-weight:600;">💅 pick a style</span>` +
-    `<input type="text" placeholder="search 397 styles…" style="flex:1;min-width:160px;background:#241722;` +
+    `<input type="text" placeholder="search 414 styles…" style="flex:1;min-width:160px;background:#241722;` +
     `border:1px solid #46293a;border-radius:8px;color:#f4dce9;padding:6px 10px;font-size:13px;outline:none;">` +
     `<select style="background:#241722;border:1px solid #46293a;border-radius:8px;color:#f4dce9;padding:6px;font-size:13px;"></select>` +
     `<a href="/clio_style/gallery/index.html" target="_blank" style="color:${GOLD};font-size:12px;text-decoration:none;">open full gallery ↗</a>` +
@@ -66,6 +66,28 @@ async function getPicker() {
   const search = header.querySelector("input");
   const tradSel = header.querySelector("select");
   const closeBtn = header.querySelector("button");
+
+  // "no style" lives in the header, not the grid — it has no thumb to show, and
+  // with the dropdown hidden this is the only one-click path back to a raw prompt
+  const noneBtn = document.createElement("button");
+  noneBtn.textContent = "✨ no style";
+  noneBtn.title = "clear the style — prompt passes through untouched";
+  noneBtn.style.cssText =
+    "background:#241722;border:1px solid #46293a;border-radius:8px;color:#f4dce9;" +
+    "padding:6px 10px;font-size:13px;cursor:pointer;transition:border-color .12s;";
+  noneBtn.addEventListener("mouseenter", () => { if (noneBtn.style.borderColor !== GOLD) noneBtn.style.borderColor = "#7a3b5e"; });
+  noneBtn.addEventListener("mouseleave", () => {
+    noneBtn.style.borderColor = current?.styleWidget?.value === NONE ? GOLD : "#46293a";
+  });
+  noneBtn.addEventListener("click", () => {
+    if (!current) return;
+    const { node, styleWidget } = current;
+    styleWidget.value = NONE;
+    styleWidget.callback?.(NONE, app.canvas, node);
+    node.setDirtyCanvas(true, true);
+    hide();
+  });
+  header.insertBefore(noneBtn, header.querySelector("a"));
   tradSel.innerHTML =
     `<option value="">all traditions</option>` +
     sectionOrder.map((s) => `<option value="${s}">${s}</option>`).join("");
@@ -129,6 +151,7 @@ async function getPicker() {
       tile.style.borderColor = isSel ? GOLD : "transparent";
       if (isSel) selected = tile;
     }
+    noneBtn.style.borderColor = styleWidget.value === NONE ? GOLD : "#46293a";
     overlay.style.display = "flex";
     document.addEventListener("keydown", onKey, true);
     if (selected) selected.scrollIntoView({ block: "center" });
@@ -148,7 +171,8 @@ async function getPicker() {
 app.registerExtension({
   name: "clio.stylePreview",
   beforeRegisterNodeDef(nodeType, nodeData) {
-    if (nodeData.name !== "ClioStyle") return;
+    // both nodes carry the same style widget, so both get the preview + picker
+    if (nodeData.name !== "ClioStyle" && nodeData.name !== "ClioStyleEncode") return;
 
     const onNodeCreated = nodeType.prototype.onNodeCreated;
     nodeType.prototype.onNodeCreated = function () {
@@ -282,8 +306,9 @@ app.registerExtension({
 
       requestAnimationFrame(() => {
         // +60 over the computed minimum: LiteGraph's minimum only budgets ~2
-        // lines for the prompt textarea (the node's flexible widget)
-        this.setSize([Math.max(this.size[0], 260), this.computeSize()[1] + 60]);
+        // lines for the prompt textarea (the node's flexible widget). Grow only:
+        // on workflow load this fires after onConfigure restored the saved size
+        this.setSize([Math.max(this.size[0], 260), Math.max(this.size[1], this.computeSize()[1] + 60)]);
       });
       return r;
     };

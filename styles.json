@@ -246,7 +246,7 @@
  },
  {
   "name": "Yoshiyuki Sadamoto Style",
-  "prompt": "A refined, elegant anime-illustration style built on confident, restrained linework carrying a subtly stylized proportion, muted cel-based shading with delicate gradation rather than sharp contrast, and a sophisticated. Influenced by: Yoshiyuki Sadamoto, Studio Gainax animation-adaptation tradition, cel-shaded design technique, Neon Genesis Evangelion illustration practice.",
+  "prompt": "Yoshiyuki Sadamoto's illustration style: refined, elegant anime character art with thin, precise, confident pen linework, slender elongated figures with narrow shoulders, long limbs, and small mouths, sharp angular eyes with thin upper lids and slim eyebrows, flat watercolor-like coloring with soft restrained shading and no harsh contrast, a muted, sophisticated palette, and a clean poster-like composition on a plain light background. Influenced by: Yoshiyuki Sadamoto, Neon Genesis Evangelion promotional art, Der Mond artbook, FLCL, Gainax character design.",
   "section": "Anime"
  },
  {
@@ -262,6 +262,36 @@
  {
   "name": "Yu-Gi-Oh! Style",
   "prompt": "A bold, expressive shōnen-manga illustration style built on confident, angular linework carrying dramatic, dynamic design, dense cel-based shading punctuated by sharp specular highlight detail, a theatrical, high-stakes intensity conveyed through dramatic composition, meticulous attention to costume and design rendering rewarding close inspection. Influenced by: Kazuki Takahashi,   Yu-Gi-Oh! Anime, Studio Gallop animation, cel-shaded shōnen illustration technique,",
+  "section": "Anime"
+ },
+ {
+  "name": "Satoshi Urushihara Style",
+  "prompt": "Satoshi Urushihara's style: glossy airbrushed rendering with soft gradient shading and wet-looking highlights on skin and hair, large luminous eyes, meticulously sculpted flowing hair, and a polished 1990s OVA cover-art finish. Influenced by: Satoshi Urushihara, Plastic Little, Langrisser, Growlanser.",
+  "section": "Anime"
+ },
+ {
+  "name": "Naoki Urasawa Style",
+  "prompt": "Naoki Urasawa's black-and-white manga style: realistic, individually distinct faces with real noses, jaws, and expression lines, restrained fine ink linework with light screentone and hatching, grounded everyday clothing and settings, and a quiet, cinematic psychological-thriller mood. Influenced by: Naoki Urasawa, Monster, 20th Century Boys, Pluto.",
+  "section": "Anime"
+ },
+ {
+  "name": "Hiroyuki Okiura Style",
+  "prompt": "Hiroyuki Okiura's Jin-Roh style: grounded, realistically proportioned figures with visible weight and heft, subdued realistic faces with small, quiet eyes, meticulously rendered clothing folds, and a muted palette of browns, greys, and cold blues under soft, sombre painterly lighting. Influenced by: Hiroyuki Okiura, Jin-Roh: The Wolf Brigade, A Letter to Momo, Production I.G.",
+  "section": "Anime"
+ },
+ {
+  "name": "Attack on Titan (WIT Studio) Style",
+  "prompt": "Attack on Titan seasons 1-3 (WIT Studio) style: smooth, polished TV anime cel finish with clean bold black outlines, hard-edged two-tone cel shading with deep shadow, sharp intense faces with heavy brows and strongly drawn eyes, and a gritty, warm earth-tone palette of browns, olive, and tan under high-contrast lighting. Influenced by: WIT Studio, Attack on Titan seasons 1-3, Kyoji Asano character designs.",
+  "section": "Anime"
+ },
+ {
+  "name": "Attack on Titan (MAPPA) Style",
+  "prompt": "Attack on Titan Final Season (MAPPA) style: thin, clean, uniform digital linework, soft flat cel shading with restrained shadow, realistic subdued faces and proportions with delicate hatched shading lines under the eyes and beneath the brows, and a cold, desaturated but colored palette of steel blue, grey, and muted khaki with a faint film grain. Influenced by: MAPPA, Attack on Titan Final Season, Tomohiro Kishi character designs.",
+  "section": "Anime"
+ },
+ {
+  "name": "Gainax Style",
+  "prompt": "1990s Gainax anime style, as a Neon Genesis Evangelion episode screenshot: Yoshiyuki Sadamoto's slender, long-limbed figures with narrow shoulders and small mouths, sharp angular eyes with thin upper lids and slim eyebrows, thin precise cel linework, hard-edged cel shading with deep shadow, a muted 1990s cel palette of dusty greens, greys, and warm skin under flat overcast light, and cinematic wide framing on hand-painted backgrounds with faint film grain. Influenced by: Gainax, Neon Genesis Evangelion (1995), Yoshiyuki Sadamoto character designs, Hideaki Anno.",
   "section": "Anime"
  },
  {
@@ -291,7 +321,7 @@
  },
  {
   "name": "South Park Style",
-  "prompt": "A crude, deliberately flat cutout-illustration style built on rigid, geometric construction that mimics paper-cutout assembly rather than fluid drawing, minimal internal shading applied in flat, uniform blocks with almost no gradation, an intentionally stiff, limited sense of motion and pose that embraces its own construction-paper simplicity, bold, thick outline separating each simplified shape with graphic clarity, and a crude, deadpan comedic charm that feels deliberately unpolished and instantly recognizable. Influenced by: Trey Parker and Matt Stone, construction-paper stop-motion-inspired animation technique, flat cutout-illustration tradition, deadpan cartoon-design practice.",
+  "prompt": "A crude construction-paper cutout cartoon style exactly like the South Park TV show: the character is rebuilt as a short, stubby paper-cutout figure with an oversized round head wider than her tiny body, two large white oval eyes touching in the middle with small black dot pupils, a simple flap mouth, mitten hands with no fingers, stiff flat front-facing pose, flat solid colors with no shading, visible construction-paper texture and slightly jagged cut edges, a flat layered-paper background of a small Colorado mountain-town bedroom. Influenced by: Trey Parker and Matt Stone, South Park construction-paper animation, cutout stop-motion technique, deadpan cartoon-design practice.",
   "section": "Cartoon"
  },
  {
@@ -372,6 +402,26 @@
  {
   "name": "Peanuts Cartoon Style",
   "prompt": "A charming, simplified illustration style built on confident, minimal outline holding rounded, flat, evenly applied color fill, an endearing, understated character-design language favoring gentle simplicity, expressive dot-eyes and economical facial gesture carrying quiet emotional depth, and a timeless, wholesome sincerity that feels tender, nostalgic, and effortlessly comforting. Influenced by: Charles Schulz, Peanuts cartoon, mid-century newspaper-comic-strip tradition, flat-color minimalist design technique, gentle everyday-life illustration practice.",
+  "section": "Cartoon"
+ },
+ {
+  "name": "Genndy Tartakovsky Style",
+  "prompt": "Genndy Tartakovsky's Samurai Jack style: flat graphic shapes with no outlines, angular simplified figures with sharp geometric faces, bold flat color fields, and dramatic use of negative space. Influenced by: Genndy Tartakovsky, Samurai Jack, Primal.",
+  "section": "Cartoon"
+ },
+ {
+  "name": "X-Men: The Animated Series Style",
+  "prompt": "X-Men: The Animated Series (1992) style: 1990s Saturday-morning cel animation with bold black outlines, flat cel shading in two tones, Jim Lee-derived heroic anatomy with strong jaws and big hair, saturated primary colors, and painted airbrushed backgrounds. Influenced by: X-Men: The Animated Series, Fox Kids, Jim Lee, 1990s Marvel animation.",
+  "section": "Cartoon"
+ },
+ {
+  "name": "Dexter's Laboratory Style",
+  "prompt": "Dexter's Laboratory style: 1990s Cartoon Network cel cartoon with thick uniform black outlines, retro UPA-inspired geometric character design with oversized heads, tiny bodies, noodle limbs, and simple dot-and-oval eyes, flat solid colors with no shading, and stylized angular 1950s-modern backgrounds. Influenced by: Dexter's Laboratory, Genndy Tartakovsky, Cartoon Network Cartoon Cartoons, UPA animation.",
+  "section": "Cartoon"
+ },
+ {
+  "name": "Powerpuff Girls Style",
+  "prompt": "The Powerpuff Girls (1998) style: Craig McCracken's Cartoon Network cel cartoon where every character, whatever their age, is redrawn as a tiny super-deformed figure: a huge round head sitting directly on a small bell-shaped body no taller than the head itself, short noodle arms ending in round fingerless nub hands, two stubby little legs with white socks and black Mary Jane shoes, the whole tiny figure shown head to toe with open space around it, no neck, no nose, enormous round eyes filling most of the face with a thick black outline ring, thick uniform black outlines, flat bright solid colors with no shading, and simple geometric 1950s-modern backgrounds. Influenced by: The Powerpuff Girls, Craig McCracken, Cartoon Network Cartoon Cartoons, UPA animation.",
   "section": "Cartoon"
  },
  {
@@ -516,7 +566,7 @@
  },
  {
   "name": "Clean Line Art",
-  "prompt": "refined line-focused aesthetics characterized by crisp contours, exceptional visual clarity, disciplined draftsmanship, controlled line weight, and highly readable form construction, emphasizing precision, elegance, and structural coherence through polished execution, simplified visual noise, and a timeless graphic sensibility that balances sophistication with effortless readability, reminiscent of Hergé and Yves Chaland, inspired by Tintin and Blake et Mortimer.",
+  "prompt": "A clean, precise line-art illustration style built on steady black ink contours of uniform, unmodulated weight, every shape fully closed and crisply defined, flat unshaded color fills with no hatching, no texture and no gradients, restrained modern palette, generous negative space, careful proportions and tidy draftsmanship, and a calm, contemporary editorial clarity that reads instantly at any size. Influenced by: contemporary editorial line illustration, technical-pen drafting, flat-color print illustration, minimalist ink drawing.",
   "section": "Comics"
  },
  {
@@ -716,7 +766,7 @@
  },
  {
   "name": "Calligraphic Linework",
-  "prompt": "refined line-centric aesthetics characterized by fluid strokes, graceful visual rhythm, expressive contour variation, elegant mark-making, and exceptional draftsmanship, emphasizing movement, balance, and artistic confidence through controlled line weight, organic transitions, and a harmonious interplay between precision and spontaneity, reminiscent of Egon Schiele and Katsuya Terada, inspired by The Book of Kells and Ukiyo-e brush drawing traditions.0",
+  "prompt": "refined line-centric aesthetics characterized by fluid strokes, graceful visual rhythm, expressive contour variation, elegant mark-making, and exceptional draftsmanship, emphasizing movement, balance, and artistic confidence through controlled line weight, organic transitions, and a harmonious interplay between precision and spontaneity, reminiscent of Egon Schiele and Katsuya Terada, inspired by The Book of Kells and Ukiyo-e brush drawing traditions.",
   "section": "Drawing"
  },
  {
@@ -737,6 +787,11 @@
  {
   "name": "Stick-Figure Child Drawing",
   "prompt": "A radically minimal illustration style built on the barest possible linework needed to suggest form, simple circular head and straight-line limbs replacing any anatomical detail entirely, a wobbly, unpracticed economy of gesture , and a charmingly crude, innocent simplicity that feels spontaneous, playful, and completely unpolished. Influenced by: child-art tradition, crayon drawing technique, kindergarten art, naive-art,",
+  "section": "Drawing"
+ },
+ {
+  "name": "Troll Face",
+  "prompt": "A single 2011 internet rage comic panel drawn in Microsoft Paint, where the character herself is drawn entirely in crude, shaky, jagged black lines made with a computer mouse, her hair and clothes reduced to wobbly scribbled outlines, a stick-limbed body under a big round head whose face, whatever the scene, is always replaced by the grinning black-and-white Trollface, all squinting eyes, huge teeth and scribbled wrinkle lines, a pure white background with almost no scenery, and flat bucket-fill color in only one or two spots. Influenced by: rage comics, r/fffffffuuuuuuuuuuuu, 4chan, Microsoft Paint, early-2010s internet memes.",
   "section": "Drawing"
  },
  {
@@ -831,7 +886,7 @@
  },
  {
   "name": "Fish-Eye Photography",
-  "prompt": "A dramatically distorted photographic technique built on an ultra-wide spherical field of view that curves straight lines into pronounced convex bowing, an exaggerated sense of depth that pushes the center forward while compressing the periphery into curved recession, a heightened, immersive perspective that feels expansive and slightly disorienting, meticulous edge-to-edge sharpness typical of the lens's extreme depth of field, and a playful, surreal spatial distortion that transforms ordinary framing into something vividly exaggerated. Influenced by: fisheye-lens photographic tradition, ultra-wide-angle technique, skateboard and action-sports photography practice, experimental distortion-lens method.",
+  "prompt": "A real-life photograph of a real person, shot on a camera with an 8mm circular fisheye lens: the whole frame bends into a round, convex bubble, straight walls and ceiling lines curve outward, the center pushes toward the lens while the edges fall away into a dark circular vignette, natural skin texture, real fabric and room detail, available-light exposure and slight digital noise, candid and playful like a doorway or skate-video snapshot, photographic realism, not an illustration. Influenced by: fisheye-lens photography, ultra-wide-angle technique, skateboard and action-sports photography, peephole and doorbell-camera snapshots.",
   "section": "Photography"
  },
  {
@@ -846,7 +901,7 @@
  },
  {
   "name": "Dutch Angle Photography",
-  "prompt": "dynamic photographic aesthetics characterized by intentional camera tilt, visual tension, dramatic perspective, heightened energy, and cinematic composition, using unconventional framing to create psychological intensity and narrative momentum through controlled imbalance, atmospheric depth, refined lighting, and striking visual storytelling, reminiscent of Orson Welles and Gregg Toland, inspired by The Third Man and Citizen Kane.",
+  "prompt": "A cinematic photograph in which the entire image is rotated about 30 degrees clockwise, as if the photographer tilted the camera sideways: the floor line, the bed, the window, the door frame, the ceiling edge and the woman herself are all strongly slanted across the frame and nothing in the picture is level or vertical, a disorienting canted composition, low-key film-noir lighting with deep shadows and one hard light source, real skin texture and photographic grain. Influenced by: canted-angle film-noir cinematography, The Third Man, psychological-thriller camerawork.",
   "section": "Photography"
  },
  {
@@ -991,7 +1046,7 @@
  },
  {
   "name": "Stranger Things-Inspired Art",
-  "prompt": "A moody, atmospheric illustration style built on thick, engulfing haze that swallows peripheral detail while a single dramatic source pierces through with sharp, saturated intensity, a nostalgic, retro-cinematic grain layered over the entire composition, tense, low-angle framing that charges ordinary space with looming unease, a deliberate contrast between soft ambient glow and harsh directional flare, and a suspenseful, synth-scored nostalgia that feels equal parts childhood wonder and creeping dread. Influenced by: 1980s horror-cinema visual tradition, retro VHS film-grain technique, practical-effects horror lighting practice, synth-era genre-film aesthetic.",
+  "prompt": "A painted 1980s movie-poster illustration in the manner of the Stranger Things key art: airbrushed and colored-pencil rendering, glowing red rim light against a deep blue night, hazy halos and lens glow, rich painterly skin and fabric, nostalgic Amblin-era theatrical poster painting with dramatic lighting and a cinematic mood. Influenced by: Drew Struzan, Kyle Lambert, 1980s airbrushed movie-poster tradition.",
   "section": "Photography"
  },
  {
@@ -1260,6 +1315,11 @@
   "section": "3D Render"
  },
  {
+  "name": "Breath of the Wild Style",
+  "prompt": "An in-game Nintendo Switch screenshot of The Legend of Zelda: Breath of the Wild: every character is a real-time 3D game model with smooth, simplified geometry, gently realistic proportions and an understated face with small, simple eyes, lit with a soft two-tone toon-shading ramp that puts one crisp shadow edge across the face and clothes, cool blue-violet shadow tones against warm sunlit highlights, a bright white rim light tracing the silhouette, the surroundings built from simple, chunky modelled 3D geometry with soft ambient occlusion in the corners and creases, matte low-detail textures with faint brush-stroke grain, a sunlit, slightly desaturated pastel palette, and hazy blue atmospheric perspective softening everything in the distance. Influenced by: Breath of the Wild and Tears of the Kingdom art direction, Nintendo EPD, real-time toon-shaded 3D rendering.",
+  "section": "3D Render"
+ },
+ {
   "name": "PS1 Graphics",
   "prompt": "A low-poly, texture-warped 3D-illustration style built on blocky, vertex-snapped geometry that jitters slightly with characteristic early-3D imprecision, low-resolution textures stretched and distorted across simplified polygonal surfaces, harsh, unfiltered pixelated edges replacing any smooth anti-aliasing, a flat, limited lighting model with minimal gradation or dynamic shadow, and a nostalgic, technically constrained charm rooted in early console-era 3D rendering limitation. Influenced by: mid-1990s PlayStation 3D-rendering technique, early polygonal-game aesthetic, retro survival-horror visual tradition, low-fidelity vertex-jitter rendering method.",
   "section": "3D Render"
@@ -1510,6 +1570,26 @@
   "section": "3D Render"
  },
  {
+  "name": "Dead or Alive Style",
+  "prompt": "An in-game photo-mode screenshot of Dead or Alive Xtreme Venus Vacation by Team Ninja: every character is a high-polygon real-time 3D model with an idealized anime-meets-realistic face, large clear glossy eyes, a small refined nose and soft glossy lips on natural proportions, flawless porcelain skin with a luminous subsurface glow and a dewy, sun-kissed specular sheen, silky strand-rendered hair full of bright specular highlights, glossy fabric that catches the light, bright high-key lighting with soft bloom, a shallow depth of field and a clean, vivid, sparkling palette. Influenced by: Dead or Alive Xtreme Venus Vacation, Dead or Alive 6, Team Ninja's Soft Engine, Koei Tecmo real-time character rendering.",
+  "section": "3D Render"
+ },
+ {
+  "name": "Octopath Traveler HD-2D Style",
+  "prompt": "An in-game screenshot of Octopath Traveler in Square Enix's HD-2D style: every character is a small 2D pixel-art sprite with chunky, clearly visible square pixels and a limited palette, standing inside a richly detailed, realistically lit 3D diorama world, seen from a high three-quarter game camera with the tiny sprite small in the frame, strong tilt-shift depth of field melting the foreground and background into soft bokeh, warm glowing bloom, volumetric light shafts and drifting dust motes, real-time light and shadow falling across the flat sprites, and a moody, storybook cinematic color grade. Influenced by: Octopath Traveler, Octopath Traveler II, Triangle Strategy, Square Enix HD-2D, Acquire, 16-bit SNES JRPGs.",
+  "section": "3D Render"
+ },
+ {
+  "name": "Nintendo 64 Style",
+  "prompt": "An in-game screenshot of a 1998 Nintendo 64 game like The Legend of Zelda: Ocarina of Time, GoldenEye 007 and Super Smash Bros.: every character is a chunky low-polygon 3D model built from a few hundred triangles, with blocky angular limbs and simple blocky hands, smooth Gouraud shading that glides softly across each polygon so the low polygon count shows only in the jagged silhouette, a face that is a tiny low-resolution texture painted onto a simple rounded head with small simple dark eyes and a short line for a mouth, untextured surfaces in flat vertex colors, tiny low-resolution textures smeared soft and blurry by bilinear filtering so there are no crisp pixels anywhere, thick distance fog swallowing the background, bright saturated primary colors, flat simple lighting, and the soft 240p output of a CRT television. Influenced by: Nintendo 64, GoldenEye 007, Super Smash Bros. (1999), Super Mario 64, late-1990s real-time 3D.",
+  "section": "3D Render"
+ },
+ {
+  "name": "Street Fighter IV Style",
+  "prompt": "An official Ultra Street Fighter IV character render by Capcom on a pale background: every character is a real-time 3D fighting-game model with exaggerated, chunky heroic proportions and boldly sculpted forms, outlined with thick hand-painted black sumi-e brush strokes that swell and taper along the silhouette, soft painterly shading brushed right onto the 3D model, a smooth, slightly glossy figurine sheen, splashes and drips of black calligraphy ink bursting around the figure, and a vivid, saturated palette of warm oranges, reds and golds against bright blues. Influenced by: Street Fighter IV, Super Street Fighter IV, Ultra Street Fighter IV, Capcom, Daigo Ikeno.",
+  "section": "3D Render"
+ },
+ {
   "name": "Digital Painting",
   "prompt": "A richly layered illustration style built on confident brushwork translated through digital tools while retaining the tactile logic of traditional painting, meticulous control over light behavior achieved through non-destructive layered blending, visible painterly texture preserved even within highly refined rendering, a technically flexible balance between loose gestural mark-making and precise, considered detail, and a polished, contemporary painterly gravitas that bridges classical technique with modern production tools. Influenced by: contemporary digital-painting tradition, Photoshop/Procreate painting workflow, classical oil-painting technique translated digitally, modern concept-art rendering practice.",
   "section": "Digital Painting"
@@ -1602,6 +1682,11 @@
  {
   "name": "Editorial Illustration",
   "prompt": "A conceptually driven illustration style built on confident, considered composition designed to communicate a single idea with immediate clarity, restrained shading and color logic that supports rather than overwhelms the central concept, meticulous attention to symbolic or metaphorical visual shorthand, a polished, deadline-tested economy of mark-making that favors clever communication over exhaustive rendering, and a sharp, intelligent illustrative wit rooted in contemporary magazine and publication practice. Influenced by: contemporary editorial-illustration tradition, conceptual magazine-illustration technique, symbolic visual-metaphor practice, publication-illustration method.",
+  "section": "Digital Painting"
+ },
+ {
+  "name": "Hades Style",
+  "prompt": "Hades (Supergiant Games) style: Jen Zee's painterly character-portrait art with bold, confident brushwork, sharp angular anatomy and chiseled faces with heavy brows, a deep saturated palette of crimson, black, and gold lit by hot neon rim light, ornate gold Greek ornament, and thick graphic black shadow shapes. Influenced by: Hades, Supergiant Games, Jen Zee, Greek mythology.",
   "section": "Digital Painting"
  },
  {
@@ -1961,7 +2046,7 @@
  },
  {
   "name": "Edvard Munch Style",
-  "prompt": "A raw, emotionally charged painting style built on sweeping, wave-like brushwork that distorts form into expressive, undulating curves, an anxious, unsettled compositional rhythm carried through swirling, restless linework, a limited, heavy tonal range weighted toward oppressive darkness broken by isolated, searing highlight, dramatic elongation and distortion of figure conveying raw psychological turmoil, and a haunting, deeply personal painterly intensity that feels visceral, unsettled, and quietly overwhelming. Influenced by: Edvard Munch, Expressionist painting tradition, symbolist figurative-painting technique, emotionally driven brushwork practice.",
+  "prompt": "A raw, emotionally charged painting style built on sweeping, wave-like brushwork that distorts form into expressive, undulating curves, an anxious, unsettled compositional rhythm carried through swirling, restless linework, a moody but unmistakably colored palette of sickly greens, blood-orange skies and deep bruised blues, heavy shadow broken by isolated, searing highlight, dramatic elongation and distortion of figure conveying raw psychological turmoil, and a haunting, deeply personal painterly intensity that feels visceral, unsettled, and quietly overwhelming. Influenced by: Edvard Munch, Expressionist painting tradition, symbolist figurative-painting technique, emotionally driven brushwork practice.",
   "section": "Painting"
  },
  {
